@@ -1,6 +1,8 @@
 import express from 'express';
 import routes from './routes';
 
+import './database';
+
 class App {
   // toda vez que o metodo é chamado o constructor é executado
   constructor() {
